@@ -1,13 +1,21 @@
-# Amazing Face API - Back End Server
+# Amazing Face API
 
-This is the back end of my Amazing Face app.
-It detects faces in images that are uploaded to it, via the image URL, by using the face-recognition API from Clarifai. 
-It also keeps track of how many images you have uploaded in your account.
-Yes, your own login account. AMAZING RIGHT?!
+This is the back-end of my Amazing Face app. It handles requests from my front-end, to the server, to the database and sends a response back to the client.
+
+## How did you build it?
+
+I built the server using Node.js with the express.js framework. I used postgreSQL for my database and connected it to my server.
 
 ## Dependencies and Packages
 
-express, nodemon, knex, clarifai, bcrypt, cors, dotenv, and pg
+- [express](https://expressjs.com/en/starter/installing.html)
+- [nodemon](https://www.npmjs.com/package/nodemon)
+- [knex](https://knexjs.org/guide/)
+- [pg](https://www.npmjs.com/package/pg)
+- [clarifai](https://github.com/Clarifai/clarifai-javascript#basic-use)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [cors](https://www.npmjs.com/package/cors)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Installation
 
