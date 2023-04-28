@@ -1,6 +1,6 @@
 # Amazing Face API
 
-This is the back-end of my Amazing Face app. It handles requests from my front-end, to the server, to the database and sends a response back to the client.
+This is the back-end of my Amazing Face app. It handles requests from my front-end, to the server, to the database and sends a response back to the client. 
 
 ## How did you build it?
 
